@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/databaseGuide/databaseGuide",
+    "pages/deployFunctions/deployFunctions"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "排班工具",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#07c160",
+    "backgroundColor": "#e6e6e6",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "日历"
+      },
+      {
+        "pagePath": "pages/databaseGuide/databaseGuide",
+        "text": "团队"
+      },
+      {
+        "pagePath": "pages/deployFunctions/deployFunctions",
+        "text": "我的"
+      }
+    ]
+  }
+}

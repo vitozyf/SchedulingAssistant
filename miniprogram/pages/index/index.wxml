@@ -1,0 +1,6 @@
+<!-- index.wxml -->
+<view class="container">
+  <view>
+    <text>123456</text>
+  </view>
+</view>
