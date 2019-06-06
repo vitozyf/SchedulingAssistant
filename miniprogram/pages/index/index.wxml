@@ -1,6 +1,6 @@
 <!-- index.wxml -->
 <view class="container">
   <view>
-    <text>123456</text>
+    <text>1</text>
   </view>
 </view>

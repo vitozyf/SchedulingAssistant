@@ -11,7 +11,7 @@ Component({
         text: '组件'
       },
       {
-        pagePath: 'pages/personal/personal',
+        pagePath: 'pages/personal/index',
         iconPath: 'images/icon_API.png',
         selectedIconPath: 'images/icon_API_HL.png',
         text: '接口'
