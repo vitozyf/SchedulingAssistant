@@ -1,9 +1,5 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/databaseGuide/databaseGuide",
-    "pages/deployFunctions/deployFunctions"
-  ],
+  "pages": ["pages/index/index", "pages/personal/personal"],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
@@ -12,21 +8,22 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "custom": true,
     "color": "#000",
     "selectedColor": "#07c160",
     "backgroundColor": "#e6e6e6",
-    "list":[
+    "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "日历"
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "组件"
       },
       {
-        "pagePath": "pages/databaseGuide/databaseGuide",
-        "text": "团队"
-      },
-      {
-        "pagePath": "pages/deployFunctions/deployFunctions",
-        "text": "我的"
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/icon_API.png",
+        "selectedIconPath": "images/icon_API_HL.png",
+        "text": "接口"
       }
     ]
   }
