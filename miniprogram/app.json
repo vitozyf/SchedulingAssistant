@@ -1,5 +1,10 @@
 {
-  "pages": ["pages/index/index", "pages/personal/index"],
+  "pages": [
+    "pages/team/index",
+    "pages/index/index",
+    "pages/personal/index",
+    "pages/getUserInfo/index"
+  ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
@@ -8,7 +13,6 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "custom": true,
     "color": "#000",
     "selectedColor": "#07c160",
     "backgroundColor": "#e6e6e6",
@@ -17,13 +21,19 @@
         "pagePath": "pages/index/index",
         "iconPath": "images/icon_component.png",
         "selectedIconPath": "images/icon_component_HL.png",
-        "text": "组件"
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/team/index",
+        "iconPath": "images/icon_component.png",
+        "selectedIconPath": "images/icon_component_HL.png",
+        "text": "团队"
       },
       {
         "pagePath": "pages/personal/index",
         "iconPath": "images/icon_API.png",
         "selectedIconPath": "images/icon_API_HL.png",
-        "text": "接口"
+        "text": "个人中心"
       }
     ]
   },

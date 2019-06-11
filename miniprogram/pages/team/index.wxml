@@ -1,0 +1,5 @@
+<!-- miniprogram/pages/team/index.wxml -->
+<view class="p-team container">
+    <button class="weui-btn" type="primary">页面主操作 Normal</button>
+    <button class="weui-btn" type="primary" disabled="true">页面主操作 Disabled</button>
+</view>

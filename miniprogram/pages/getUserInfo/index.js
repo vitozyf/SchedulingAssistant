@@ -1,24 +1,19 @@
-// miniprogram/pages/personal/personal.js
+// miniprogram/pages/getUserInfo/index.js
 Page({
   /**
    * 页面的初始数据
    */
-  data: {},
+  data: {
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
-    // wx.getUserInfo({
-    //   success(res) {
-    //     console.log(123, res);
-    //   },
-    //   fail(err) {
-    //     console.log(234, err);
-    //     wx.redirectTo({
-    //       url: '/pages/getUserInfo/index'
-    //     });
-    //   }
-    // });
+  onLoad: function(options) {},
+
+  bindGetUserInfo(e) {
+    console.log(e.detail.userInfo);
   },
 
   /**

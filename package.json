@@ -1,0 +1,11 @@
+{
+  "name": "scheduling-tools",
+  "version": "1.0.0",
+  "description": "排班工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vito",
+  "license": "MIT"
+}
