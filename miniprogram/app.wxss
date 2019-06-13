@@ -1,6 +1,7 @@
 /**app.wxss**/
 @import './style/weui.wxss';
 @import './style/common.wxss';
-.container {
+page {
   font-size: 24rpx;
+  background-color: #f8f8f8;
 }

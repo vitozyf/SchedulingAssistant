@@ -1,5 +1,10 @@
 <!-- miniprogram/pages/team/index.wxml -->
-<view class="p-team container">
-    <button class="weui-btn" type="primary">页面主操作 Normal</button>
-    <button class="weui-btn" type="primary" disabled="true">页面主操作 Disabled</button>
+<view class="container">
+    <view class="header"></view>
+    <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" bind:tap="createTeamHandler">创建团队</button>
+        <button class="weui-btn" plain="true" type="primary" bind:tap="createTeamHandler">
+            邀请排版人员创建
+        </button>
+    </view>
 </view>

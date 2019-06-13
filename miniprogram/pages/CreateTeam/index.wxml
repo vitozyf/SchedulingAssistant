@@ -1,0 +1,27 @@
+<!-- miniprogram/pages/CreateTeam/index.wxml -->
+<view class="container">
+    <view class="header">
+        <rich-text nodes="<h2>只需两部即可创建</h2>"></rich-text>
+        <text>从此排班无忧</text>
+    </view>
+    <view class="weui-cells__title">团队名称</view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输入团队名称" placeholder-style="color:#ccc;font-size:14px;"></input>
+            </view>
+        </view>
+    </view>
+    <view class="weui-cells__title">姓名</view>
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输入你的姓名" placeholder-style="color:#ccc;font-size:14px;"></input>
+            </view>
+        </view>
+    </view>
+    <view class="weui-btn-area button-container">
+        <button class="weui-btn" type="primary" bind:tap="createdTemaHandler">创建</button>
+        <view class="footer-tip">注：创建成功后将切换至该团队，如果需要切换可在团队界面切换</view>
+    </view>
+</view>

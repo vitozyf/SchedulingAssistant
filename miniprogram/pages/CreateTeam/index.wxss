@@ -1,0 +1,12 @@
+/* miniprogram/pages/CreateTeam/index.wxss */
+.header {
+  padding-top: 80rpx;
+  text-align: center;
+}
+.button-container {
+  margin-top: 80rpx;
+}
+.footer-tip {
+  color: #999;
+  margin-top: 40rpx;
+}

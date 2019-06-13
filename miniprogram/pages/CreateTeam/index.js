@@ -1,37 +1,29 @@
-// miniprogram/pages/team/index.js
+// miniprogram/pages/CreateTeam/index.js
 Page({
-  createTeamHandler(event) {
-    wx.navigateTo({
-      url: '/pages/CreateTeam/index'
-    });
-  },
-
   /**
    * 页面的初始数据
    */
   data: {},
 
+  createdTemaHandler() {
+    wx.cloud
+      .callFunction({
+        name: 'teamHandler',
+        data: {
+          type: 'add',
+          team_name: '急诊',
+          administrator: 'Vito'
+        }
+      })
+      .then(res => {
+        console.log(111, res);
+      });
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
-    // wx.login({
-    //   success(res) {
-    //     console.log(111, res);
-    //   },
-    //   fail(err) {
-    //     console.log(222, err);
-    //   }
-    // });
-    // wx.cloud
-    //   .callFunction({
-    //     name: 'login',
-    //     data: {}
-    //   })
-    //   .then(res => {
-    //     console.log(111, res);
-    //   });
-  },
+  onLoad: function(options) {},
 
   /**
    * 生命周期函数--监听页面初次渲染完成

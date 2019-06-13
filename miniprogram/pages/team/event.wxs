@@ -1,0 +1,6 @@
+function createTeamHandler(event, ownerInstance) {
+  console.log('tap wechat', JSON.stringify(event), ownerInstance);
+}
+module.exports = {
+  createTeamHandler: createTeamHandler
+};

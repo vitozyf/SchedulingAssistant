@@ -1,3 +1,7 @@
 /* miniprogram/pages/team/index.wxss */
-.p-team {
+.container {
+  padding: 0 30rpx;
+}
+.header {
+  height: 400rpx;
 }
