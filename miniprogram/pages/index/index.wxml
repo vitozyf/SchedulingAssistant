@@ -1,6 +1,7 @@
 <!-- index.wxml -->
 <view class="container">
-  <view>
-    <text>1</text>
-  </view>
+  <calendar calendar="{{calendar}}" gesture="{{gesture}}"></calendar>
+  <dialog title="标题" visible="{{dialogvisible}}" bind:open="dialogOpen" bind:close="dialogClose" className="test-classname" close-on-click-overlay="{{false}}" bind:confirmHandler="confirmHandler" asyncClose="{{true}}" titleAlign="center">
+    <view>内容</view>
+  </dialog>
 </view>

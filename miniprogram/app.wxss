@@ -4,4 +4,5 @@
 page {
   font-size: 24rpx;
   background-color: #f8f8f8;
+  color: #333;
 }

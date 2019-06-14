@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "calendar": "../../component/calendar/index",
+    "dialog": "../../component/dialog/dialog"
+  }
 }

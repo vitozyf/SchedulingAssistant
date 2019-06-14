@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/CreateTeam/index",
-    "pages/team/index",
     "pages/index/index",
-    "pages/personal/index",
-    "pages/getUserInfo/index"
+    "pages/team/index",
+    "pages/getUserInfo/index",
+    "pages/CreateTeam/index",
+    "pages/personal/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -38,5 +38,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }

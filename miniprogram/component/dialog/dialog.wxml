@@ -1,0 +1,20 @@
+<!-- component/dialog.wxml -->
+<view class="dialog-wapper" wx:if="{{visible}}" catchtap="closeHandler">
+    <view class="dialog {{className}}" catchtap="dialogTap">
+        <view class="dialog-title" style="text-align: {{titleAlign}};">
+            <text>{{title}}</text>
+            <slot name="title"></slot>
+        </view>
+        <view class="dialog-body">
+            <slot></slot>
+        </view>
+        <view class="dialog-footer">
+            <view wx:if="{{showCancelButton}}" class="footer-btn cancel-btn" catchtap="cancelButtonHandler">
+                {{cancelButtonText}}
+            </view>
+            <view wx:if="{{showConfirmButton}}" class="footer-btn confirm-btn" catchtap="confirmButtonHandler">
+                {{confirmButtonText}}
+            </view>
+        </view>
+    </view>
+</view>

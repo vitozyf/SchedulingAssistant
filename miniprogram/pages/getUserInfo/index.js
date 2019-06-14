@@ -13,7 +13,12 @@ Page({
   onLoad: function(options) {},
 
   bindGetUserInfo(e) {
-    console.log(e.detail.userInfo);
+    const { userInfo } = e.detail;
+    if (userInfo) {
+      wx.reLaunch({
+        url: '/pages/index/index'
+      });
+    }
   },
 
   /**

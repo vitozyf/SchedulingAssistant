@@ -1,14 +1,14 @@
 {
-  "name": "scheduling-tools",
+  "name": "userHandler",
   "version": "1.0.0",
-  "description": "排班工具",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "vito",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "dayjs": "^1.8.14"
+    "wx-server-sdk": "latest"
   }
 }
