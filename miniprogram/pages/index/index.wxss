@@ -1,0 +1,14 @@
+.dialog-body {
+  padding: 10rpx;
+  color: #666;
+}
+.remark-title {
+  line-height: 80rpx;
+}
+.textarea {
+  font-size: 28rpx;
+  height: 100rpx;
+  border: 1px solid #e6e6e6;
+  padding: 4rpx 10rpx;
+  box-sizing: border-box;
+}

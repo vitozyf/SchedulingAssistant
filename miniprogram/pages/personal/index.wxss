@@ -16,3 +16,6 @@
 .userinfo-nickname {
   font-size: 30rpx;
 }
+.weui-cell__hd {
+  padding: 0 10rpx;
+}

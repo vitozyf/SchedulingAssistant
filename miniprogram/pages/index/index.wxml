@@ -1,7 +1,12 @@
 <!-- index.wxml -->
 <view class="container">
   <calendar calendar="{{calendar}}" gesture="{{gesture}}"></calendar>
-  <dialog title="标题" visible="{{dialogvisible}}" bind:open="dialogOpen" bind:close="dialogClose" className="test-classname" close-on-click-overlay="{{false}}" bind:confirmHandler="confirmHandler" asyncClose="{{true}}" titleAlign="center">
-    <view>内容</view>
+  <dialog title="{{currentDay}}" visible="{{dialogvisible}}" bind:open="dialogOpen" bind:close="dialogClose" className="test-classname" close-on-click-overlay="{{false}}" bind:confirmHandler="confirmHandler" asyncClose="{{true}}" titleAlign="center" confirmButtonText="保存">
+    <view class="dialog-body">
+      <view class="remark-title">当前班次：</view>
+      <view class="textarea-box">
+        <textarea class="weui-textarea textarea" placeholder-class="fs24" placeholder="填写备注" />
+      </view>
+    </view>
   </dialog>
 </view>
